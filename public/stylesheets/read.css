@@ -1,0 +1,27 @@
+#content
+{
+    color: black;
+    display: block;
+}
+
+.container{
+    visibility: hidden;
+}
+
+.container .content{
+    color: black;
+    display: block;
+    position: absolute;
+    visibility: visible;
+}
+
+#back{
+    visibility: visible;
+    color: #3A345D;
+    bottom: 5vh;
+    position: absolute;
+    width: 4vh;
+    height: 4vh;
+    font-size: 500;
+    font: bold;
+}
