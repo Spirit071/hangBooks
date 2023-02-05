@@ -18,7 +18,7 @@ app.use(methodOverride('_method'))
 app.use(express.static('public'))
 app.use(bodyParser.urlencoded({ limit: '100mb', extended: false }))
 
-const DB_URL = `mongodb+srv://user:sisma123@cluster0.wggv25c.mongodb.net/?retryWrites=true&w=majority`
+const DB_URL = `URL_FOR_MONGOOSE_DATABASE`
 
 const mongoose = require('mongoose')
 mongoose.connect(DB_URL, 
